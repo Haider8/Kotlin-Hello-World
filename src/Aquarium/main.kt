@@ -16,4 +16,18 @@ fun buildAquarium() {
     println("width: ${myAquarium.width}")
 
     println("volume: ${myAquarium.volume}")  //volume is accessed as a property
+
+    val smallAquarium = Aquarium(length = 20, width =  15, height =  30)
+
+    println("Volume of small aquarium: ${smallAquarium.volume()}")
+
+    val myAquarium2 = Aquarium(numberOfFish = 9)
+
+    println("Small aquarium 2: ${myAquarium2.volume} liters with " +
+            "length: ${myAquarium2.length} " +
+            "width: ${myAquarium2.width} " +
+            "height: ${myAquarium2.height} -- ${myAquarium2.fishes}")
+
+//    fishExample()
+//    makeDefaultFish()
 }
