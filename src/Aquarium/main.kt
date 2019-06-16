@@ -30,4 +30,10 @@ fun buildAquarium() {
 
 //    fishExample()
 //    makeDefaultFish()
+
+    //Inheritance
+    val myTowerTank = TowerTank()
+
+    println(myTowerTank.water)
+    println(myTowerTank.volume)
 }
